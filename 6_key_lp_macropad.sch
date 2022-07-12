@@ -19,7 +19,7 @@ U 1 1 62CA24EC
 P 4900 3750
 F 0 "U1" H 4900 4787 60  0000 C CNN
 F 1 "ProMicro" H 4900 4681 60  0000 C CNN
-F 2 "promicro:ProMicro" H 5000 2700 60  0001 C CNN
+F 2 "promicro:ProMicro-NoSilk" H 5000 2700 60  0001 C CNN
 F 3 "" H 5000 2700 60  0000 C CNN
 	1    4900 3750
 	1    0    0    -1  
@@ -91,16 +91,10 @@ Wire Wire Line
 	5600 3100 5850 3100
 Wire Wire Line
 	5600 3300 5850 3300
-Text GLabel 4000 3400 0    50   Input ~ 0
-col0
 Wire Wire Line
 	4200 3400 4000 3400
-Text GLabel 4000 3500 0    50   Input ~ 0
-col1
 Wire Wire Line
 	4200 3500 4000 3500
-Text GLabel 4000 3600 0    50   Input ~ 0
-col2
 Wire Wire Line
 	4200 3600 4000 3600
 $Comp
@@ -186,12 +180,10 @@ Text GLabel 5850 3700 2    50   Input ~ 0
 rot2
 Text GLabel 5850 3600 2    50   Input ~ 0
 rot1
-Text GLabel 5850 3500 2    50   Input ~ 0
-pinB
 Text GLabel 5850 3400 2    50   Input ~ 0
+pinB
+Text GLabel 5850 3500 2    50   Input ~ 0
 pinA
-Text GLabel 4000 4000 0    50   Input ~ 0
-row0
 Wire Wire Line
 	5600 3400 5850 3400
 Wire Wire Line
@@ -250,9 +242,7 @@ Wire Wire Line
 	5150 4850 5300 4850
 Wire Wire Line
 	4650 4850 4750 4850
-Text GLabel 4000 3700 0    50   Input ~ 0
-col3
-Text GLabel 4000 3800 0    50   Input ~ 0
+Text GLabel 4000 4000 0    50   Input ~ 0
 col4
 Text GLabel 4000 3900 0    50   Input ~ 0
 col5
@@ -297,4 +287,14 @@ Wire Wire Line
 	7350 4950 7350 4550
 Wire Wire Line
 	6850 4950 6850 4550
+Text GLabel 4000 3400 0    50   Input ~ 0
+row0
+Text GLabel 4000 3700 0    50   Input ~ 0
+col3
+Text GLabel 4000 3800 0    50   Input ~ 0
+col2
+Text GLabel 4000 3600 0    50   Input ~ 0
+col1
+Text GLabel 4000 3500 0    50   Input ~ 0
+col0
 $EndSCHEMATC
